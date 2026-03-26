@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bliss Hampers</title>
+
+  <!-- Google Font for Pinterest aesthetic -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fff7f5;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: #6b4226;
+    }
+
+    header p {
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero img {
+      width: 90%;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .price {
+      font-weight: 600;
+      margin: 10px 0;
+      color: #ff6f61;
+    }
+
+    .btn {
+      background: #25D366;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 25px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bliss Hampers 🎁</h1>
+  <p>Handmade with love • Perfect for surprises 💖</p>
+</header>
+
+<section class="hero">
+  <!-- REPLACE THIS IMAGE WITH YOUR OWN -->
+  <img src="your-image.jpg" alt="Gift Hampers">
+</section>
+
+<section class="products">
+
+  <div class="card">
+    <img src="your-image.jpg" alt="Mini Hamper">
+    <h3>Mini Surprise Hamper</h3>
+    <p class="price">₹99</p>
+    <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=Hi! I want to order Mini Surprise Hamper">Order on WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <img src="your-image.jpg" alt="Premium Hamper">
+    <h3>Premium Gift Hamper</h3>
+    <p class="price">₹199</p>
+    <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=Hi! I want to order Premium Gift Hamper">Order on WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <img src="your-image.jpg" alt="Custom Hamper">
+    <h3>Custom Hamper</h3>
+    <p class="price">₹149</p>
+    <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=Hi! I want to customize my hamper">Order on WhatsApp</a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Bliss Hampers | Made with ❤️
+</footer>
+
+</body>
+</html>
